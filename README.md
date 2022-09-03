@@ -1,7 +1,7 @@
 # README-FILE-NODE
-Copies link to video:  https://drive.google.com/file/d/13f0oOcPtQlEyHFTzP_hRxpDIOeP1L-2o/view
+Copies link to video: https://drive.google.com/file/d/1I6TiuXV6FayEWTPTVcMB4zIEgRIZTcdJ/view
 
-Copy of Youtube in case the first video doesn't work:   https://youtu.be/qNqcad5zHQA
+Copy of Youtube in case the first video doesn't work: https://drive.google.com/file/d/1I6TiuXV6FayEWTPTVcMB4zIEgRIZTcdJ/view  
 
 
 User Story
@@ -47,3 +47,4 @@ TO RUN THE PROGRAM RUN THE FOLLOWING COMMAND AT THE ROOT OF THE PROJECT AND YOU 
 
 NODE index.js
 
+![Untitled_ Sep 3, 2022 1_16 PM (2)](https://user-images.githubusercontent.com/106980299/188281757-62c9282b-e6fc-4fa9-a582-ba36b225b82a.gif)

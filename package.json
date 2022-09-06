@@ -1,0 +1,25 @@
+{
+  "name": "readme-file-node",
+  "version": "1.0.0",
+  "description": "https://github.com/adj0609/README-FILE-NODE.git\r https://github.com/adj0609/README-FILE-NODE",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adj0609/README-FILE-NODE.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adj0609/README-FILE-NODE/issues"
+  },
+  "homepage": "https://github.com/adj0609/README-FILE-NODE#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "inquirer": "^8.0.0",
+    "node": "^18.8.0"
+  }
+}

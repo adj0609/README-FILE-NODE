@@ -12,7 +12,7 @@ const questions =() =>
     {
         type: 'input',
         name: 'username',
-        message: 'What is your username?',
+        message: 'What is your github username?',
     },
     {
         type: 'input',
@@ -40,31 +40,28 @@ const questions =() =>
         name: 'test',
         message: 'What command should be ran to run tests?',
     },
-{
-    type: 'input',
-    name: 'clone',
-    message: 'What is the link to clone the repo?',
-},
-{
-    type: 'input',
-    name: 'URL',
-    message: 'What is your URL?',
-    },
+    {
+        type: 'input',
+        name: 'contribution',
+        message: 'How do you contribute?',
+    }
   ]);
   
   function generateMD(data){
+  
+  
 
-    return`# $(data.title)
-    ${badge}
-    ${data.description}
-    ##Table of Contents:
+
+    return`# ${data.title}
+    ![liscense](https://img.shields.io/badge/liscense-${data.liscense}-blue.svg)
+    ## Table of Contents:
     *[Installatioin](#installatioin)
     *[Usage](#usage)
     *[liscense](#liscense)
     *[Contributing](#contributing)
     *[Test](#test)
     *[Questions](#questions)
-  ##Installation
+  ## Installation
   in order to install dependencies, open the terminal and run the following:
   \'\'\' ${data.installations}\'\'\'
   ### Data Usage:
@@ -73,7 +70,7 @@ const questions =() =>
   This project is liscensed under:
   ${data.liscense}
   ### Contributing:
-  ${data.contributing}
+  ${data.contribution}
   ### Test:
   ${data.test}
   ### Questions:
@@ -82,7 +79,7 @@ const questions =() =>
   }
 
   questions()
-  .then((data) => writeFileAsync('generateREADME.md',
+  .then((data) => fs.writeFileSync('generateREADME.md',
   generateMD(data)))
   .then(() => console.log('Successfully wrote to index.html'))
   .catch((err) => console.error(err));
